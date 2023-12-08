@@ -40,7 +40,7 @@ class Generator(nn.Module):
 
 
 class Discriminator(nn.Module):
-    def __init__(self, IMAGE_CHANNEL, D_HIDDEN):
+    def __init__(self, IMAGE_CHANNEL: int, D_HIDDEN: int) -> None:
         """Discriminator network.
 
         Args:
