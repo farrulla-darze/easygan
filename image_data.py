@@ -14,7 +14,7 @@ class ImageData:
         datasets_list = datasets.__all__
         return datasets_list
 
-    def get_dataset(self, dataset_name, root_dir, transform, download):
+    def get_dataset(self, dataset_name: str, root_dir: str, transform, download: bool):
         """Get dataset.
 
         Args:
